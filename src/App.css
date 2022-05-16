@@ -1,0 +1,88 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.root {
+  background: rgb(236, 243, 255);
+  height: 1000px;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainApp {
+  height: 900px;
+  display: grid;
+}
+
+.AppContainer {
+  width: 900px;
+  border: 1px solid #4877c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AppView {
+  height: 600px;
+}
+
+.title {
+  color: #0A68FF;
+}
+
+.groomDetails {
+  color: #4877c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rootNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noteContainer {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

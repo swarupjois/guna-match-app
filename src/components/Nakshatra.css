@@ -1,0 +1,79 @@
+.menuItems {
+    text-transform: uppercase;
+}
+
+.gunaResult {
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+    width: 318px;
+    min-height: 100px;
+}
+
+.gunaResultMore {
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 3px solid green;
+    width: 318px;
+    min-height: 100px;
+}
+
+.gunaResultLess {
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 3px solid red;
+    width: 318px;
+    min-height: 100px;
+}
+
+.diamond-shape {
+    background: green;
+    height: 35px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 35px;
+}
+
+.diamond-count {
+    color: #fff;
+    display: table-cell;
+    height: 35px;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+    width: 35px;
+}
+
+.square-shape {
+    height: 35px;
+    width: 70px;
+    color: #fff;
+    background-color: red;
+}
+
+.normal-less-count {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.normal-more-count {
+    font-size: 20px;
+    font-weight: bold;
+    color: green
+}
+
+.square-count {
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.resultLabel {
+    padding-bottom: 5px;
+}
+
+.resultCount {
+    display: flex;
+    justify-content: center;
+}
