@@ -36,7 +36,6 @@
 
 .root {
   background: rgb(236, 243, 255);
-  height: 1000px;
 }
 
 .App {
@@ -47,11 +46,10 @@
 
 .MainApp {
   height: 900px;
-  display: grid;
 }
 
 .AppContainer {
-  width: 900px;
+  width: 100%;
   border: 1px solid #4877c6;
   display: flex;
   align-items: center;
