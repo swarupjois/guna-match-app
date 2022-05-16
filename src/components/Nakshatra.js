@@ -7,8 +7,7 @@ import Select from '@mui/material/Select';
 import './Nakshatra.css';
 import { TextField } from '@material-ui/core';
 
-export default function Nakshatra({ data, guna, setGuna }) {
-    const [nakshatra, setNakshatra] = React.useState('');
+export default function Nakshatra({ data, guna, setGuna, nakshatra, setNakshatra }) {
 
     const handleNakshatraChange = (event) => {
         setNakshatra(event.target.value);

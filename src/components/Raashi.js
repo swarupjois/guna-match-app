@@ -11,6 +11,7 @@ export default function Raashi({ data }) {
     const [isRaashiSelected, setRaashiSelected] = React.useState(false);
     const [nakshatra, setNakshatra] = React.useState([])
     const [guna, setGuna] = React.useState();
+    const [selectedNakshatra, setSelectedNakshatra] = React.useState('');
 
     const handleRaashiChange = (event) => {
         setRaashi(event.target.value);
@@ -23,7 +24,8 @@ export default function Raashi({ data }) {
         }
         setNakshatra(filteredNakshatra);
         event.target.value && setRaashiSelected(true);
-        setGuna(undefined)
+        setGuna(undefined);
+        setSelectedNakshatra('');
 
     };
 
@@ -50,7 +52,7 @@ export default function Raashi({ data }) {
                 </FormControl>
             </div>
             <div>
-                {isRaashiSelected && <Nakshatra data={nakshatra} guna={guna} setGuna={setGuna} />}
+                {isRaashiSelected && <Nakshatra data={nakshatra} guna={guna} setGuna={setGuna} nakshatra={selectedNakshatra} setNakshatra={setSelectedNakshatra} />}
             </div>
         </div>
     );
