@@ -22,7 +22,7 @@ export default function Nakshatra({ data, guna, setGuna, nakshatra, setNakshatra
             return 'gunaResultLess';
         } else if (guna[0].isRambus) {
             return 'gunaResultMore';
-        } else if (guna[0].guna < 17) {
+        } else if (guna[0].guna < 18) {
             return 'gunaResultLess'
         } else if (guna[0].guna >= 18) {
             return 'gunaResultMore';
