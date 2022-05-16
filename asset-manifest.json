@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/guna-match-app/static/css/main.44591daf.css",
-    "main.js": "/guna-match-app/static/js/main.29d15bb2.js",
+    "main.js": "/guna-match-app/static/js/main.f12d2fd0.js",
     "static/js/787.a1aeabb7.chunk.js": "/guna-match-app/static/js/787.a1aeabb7.chunk.js",
     "index.html": "/guna-match-app/index.html",
     "main.44591daf.css.map": "/guna-match-app/static/css/main.44591daf.css.map",
-    "main.29d15bb2.js.map": "/guna-match-app/static/js/main.29d15bb2.js.map",
+    "main.f12d2fd0.js.map": "/guna-match-app/static/js/main.f12d2fd0.js.map",
     "787.a1aeabb7.chunk.js.map": "/guna-match-app/static/js/787.a1aeabb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44591daf.css",
-    "static/js/main.29d15bb2.js"
+    "static/js/main.f12d2fd0.js"
   ]
 }
